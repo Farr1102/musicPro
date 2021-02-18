@@ -1,0 +1,10 @@
+<template>
+  <div>
+    <mt-header fixed title="固定在顶部">
+      <router-link to="/" slot="left">
+        <mt-button icon="back"></mt-button>
+      </router-link>
+      <mt-button icon="search" slot="right"></mt-button>
+    </mt-header>
+  </div>
+</template>
